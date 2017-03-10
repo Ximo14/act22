@@ -27,7 +27,7 @@
         echo"<td> ".$fila['Ciudad']." </td>";
         echo"<td> ".$fila['Conferencia']." </td>";
         echo"<td> ".$fila['Division']." </td>";
-        echo "<td><a href='borrarDB.php?nombre=".$fila['Nombre']"'>BORRAR</a></td>";
+        echo "<td><a href='borrarDB.php?nombre=".$fila['Nombre']."'>BORRAR</a></td>";
         echo "</tr>";
 
       }
